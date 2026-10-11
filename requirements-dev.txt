@@ -1,0 +1,4 @@
+-r requirements.txt
+psutil>=6,<8
+winrt-Windows.Media.Control>=3.2,<4; sys_platform == 'win32'
+winrt-Windows.Foundation.Collections>=3.2,<4; sys_platform == 'win32'

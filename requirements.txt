@@ -1,0 +1,18 @@
+PySide6>=6.8,<7
+python-mpv>=1.0.8,<2
+numpy>=2.0,<3
+pytest>=8,<10
+PyInstaller>=6,<7
+Pillow>=11,<13
+argostranslate>=1.11,<2
+ctranslate2>=4,<5
+pysubs2>=1.9,<2
+winrt-runtime>=3.2,<4; sys_platform == 'win32'
+winrt-Windows.Media>=3.2,<4; sys_platform == 'win32'
+winrt-Windows.Media.Interop>=3.2,<4; sys_platform == 'win32'
+winrt-Windows.Foundation>=3.2,<4; sys_platform == 'win32'
+winrt-Windows.Storage.Streams>=3.2,<4; sys_platform == 'win32'
+winrt-Windows.Storage>=3.2,<4; sys_platform == 'win32'
+# pefile is installed by PyInstaller on Windows (build runtime validation).
+faster-whisper>=1.2,<2
+huggingface-hub>=0.24,<2

@@ -1,0 +1,9 @@
+[project]
+name = "dx-media-player"
+version = "2.3.0"
+description = "DX Media Player — Play Beyond Limits"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
